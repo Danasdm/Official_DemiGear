@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}	
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #444444;
+	padding: 30px 10%;
+	
+}	
+
+.logo{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 50px;
+	cursor: pointer;
+	
+	
+	
+}
+.nav-links a{
+	display: inline;
+	justify-content: space-between;
+	width: 40%;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;	
+}
+
+.nav-links li{
+	list-style: none;
+	display: inline-block;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+
+.nav-links a:hover{
+	color:#0088a9;
+}
+
+
+.hero-section {
+	background: url(Others/Grand\ Opening\ Flyer_v4.png) 50% no-repeat;
+	background-size: 65%;
+	height: 60vh;
+	text-align: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-webkit-justify-content: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+  }
+  
+  .hero-section .hero-section-text {
+	color: #fefefe;
+	text-shadow: 1px 1px 2px #0a0a0a;
+  }
+
+  .intro{
+	text-align: center;  
+  }
+  
+  
