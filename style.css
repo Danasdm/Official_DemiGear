@@ -9,7 +9,7 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	min-height: 8vh;
-	background-color: #444444;
+	background-color: #333a40;
 	padding: 30px 10%;
 	
 }	
@@ -71,5 +71,61 @@ nav{
   .intro{
 	text-align: center;  
   }
-  
-  
+
+  .about{
+	  margin: 0;
+	  padding: 10px;
+	  align-self: center;
+  }
+
+  .about_info {
+	height: 250px;	
+	overflow: visible;
+	position: relative;
+   }
+   .about_info h3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 10;
+	padding: 40px;
+	line-height: 50px;
+	text-align: right;
+   
+	/* Apply animation to this element */	
+	animation: example2 5s ease-out;
+   }
+   /* Move it (define the animation) */
+   @keyframes example2 {
+	0%   { 
+	transform: translateY(200%); 		
+	}
+	100% { 
+	transform: translateY(0%); 
+	}
+   }
+
+   .dgimage{
+	margin: 0;
+	padding: 40px;
+	align-self: center; 
+   }
+
+   .py-4 bg-dark text-white-50{
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1; 
+   }
+
+   #sticky-footer {
+	flex-shrink: none;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	  padding: 1;
+	  padding-bottom: 0;
+  }
+   
