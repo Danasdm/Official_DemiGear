@@ -91,6 +91,7 @@ nav{
 	padding: 40px;
 	line-height: 50px;
 	text-align: right;
+	font-family: 'Architects Daughter', regular;
    
 	/* Apply animation to this element */	
 	animation: example2 5s ease-out;
