@@ -48,7 +48,7 @@ nav{
 
 
 .hero-section {
-	background: url(Others/Grand\ Opening\ Flyer_v4.png) 50% no-repeat;
+	background: url(Others/Grand\ Opening\ Flyer_v5.png) 50% no-repeat;
 	background-size: 65%;
 	height: 60vh;
 	text-align: center;
@@ -143,5 +143,12 @@ nav{
 	padding: 40px;  
 	display:block;
 	text-align: center;
+  }
+
+  .contact{
+	margin: 0;
+	padding: 40px;  
+	display:block;
+	text-align: center; 
   }
    
