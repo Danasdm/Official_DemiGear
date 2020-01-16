@@ -157,15 +157,33 @@ nav{
 	padding: 40px;  
 	display:block;
 	text-align: center; 
+	background: #333a40;
 	
   }
 
   .check{
 	margin: 0;
+	padding: 10px;  
+	display:block;
+	text-align: center;
+	font-weight: bold; 
+	color: black;
+  }
+
+  .join {
+	margin: 0;
 	padding: 50px;  
 	display:block;
 	text-align: center; 
-	background: blue;
-	color: white;
+	font-weight: bold;
+	color: #ed5bf4;
   }
-   
+
+  .pic {
+	margin: 0;
+	padding: 0px;  
+	display:block;
+	text-align: center; 
+	font-weight: bold;
+	color: #ed5bf4;  
+  }
